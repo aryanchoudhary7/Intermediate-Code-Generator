@@ -92,12 +92,12 @@ Intermediate-Code-Generator/
 ├── README.md
 │
 └── screenshots/
-    ├── main_interface.png
-    ├── three_address_code.png
-    ├── quadruples.png
-    ├── triples.png
-    └── error_handling.png
+    ├── all_representations.png
+    ├── error_handling.png
+    └── main_interface.png
+    
 ```
+
 
 *Note: `icg.exe` is the compiled executable and does not need to be committed to GitHub. You can compile it from the source code.*
 
@@ -226,36 +226,13 @@ Here, `(0)` and `(1)` refer to the results of previously generated instructions.
 
 ## Screenshots
 
-Add screenshots of your actual program execution in the `screenshots/` folder.
-
 ### 1. Main Interface
-
-Shows the program running and accepting user expressions.
-
 ![Main Interface](screenshots/main_interface.png)
 
-### 2. Three Address Code Generation
+### 2. Intermediate Code Representations
+![TAC, Quadruples and Triples](screenshots/all_representations.png)
 
-Shows the generated Three Address Code for an arithmetic expression.
-
-![Three Address Code](screenshots/three_address_code.png)
-
-### 3. Quadruples Representation
-
-Shows the generated quadruple representation.
-
-![Quadruples](screenshots/quadruples.png)
-
-### 4. Triples Representation
-
-Shows the generated triple representation.
-
-![Triples](screenshots/triples.png)
-
-### 5. Error Handling
-
-Shows how the program detects invalid characters or malformed expressions.
-
+### 3. Error Handling
 ![Error Handling](screenshots/error_handling.png)
 
 ---
